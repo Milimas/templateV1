@@ -9,13 +9,43 @@ body {
     text-align: center;
 }
 
-.logo {}
+.gal-item {
+    overflow: hidden;
+    padding: 8px;
+}
+
+.gal-item .box {
+    height: auto;
+    padding-bottom: 8px;
+    overflow: hidden;
+}
+
+.box img {
+    height: 100%;
+    width: auto;
+    object-fit: cover;
+}
 
 .middle .btn {
     display: inline-block;
     width: 30px;
     height: 30px;
     background: #1e272e;
+    margin: 3px;
+    border-radius: 30%;
+    box-shadow: 0 2.5px 7.5px -2.5px #00000070;
+    color: #f1f2f6;
+    overflow: hidden;
+    position: relative;
+    padding: 0;
+    border: 0px;
+}
+
+.middle2 .btn {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: #007bff;
     margin: 3px;
     border-radius: 30%;
     box-shadow: 0 2.5px 7.5px -2.5px #00000070;
@@ -85,13 +115,14 @@ body {
 }
 
 .nav-link {
-    border-radius: 15%;
+    border-radius: 25px;
     margin: 2px;
 }
 
 .slidercontent {
     margin: auto;
     padding: 5%;
+    height: 700px;
 }
 
 .slidercontent .btn {
@@ -99,5 +130,52 @@ body {
 }
 
 .nav-link:hover {
-    background: #1E88E5;
+    background: #007bff;
+}
+
+.features1 {
+    background-image: url('../assets/bg6.jpg');
+    background-size: cover;
+    background-position: top;
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+.slider-title-left {
+    border-left-style: solid;
+    border-left-width: 10px;
+    padding-right: 10px;
+}
+
+.slider-title-right {
+    border-right-style: solid;
+    border-right-width: 10px;
+    padding-right: 10px;
+}
+
+.pricing {
+    background-image: url('../assets/bg6.jpg');
+    background-size: cover;
+    background-position: top;
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.joinus {
+    background-image: url('../assets/bg6.jpg');
+    background-size: cover;
+    background-position: top;
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.bleft {
+    border-left-style: solid;
+    border-left-width: 10%;
+    padding-right: 10px;
+    border-left-color: #007bff;
 }
