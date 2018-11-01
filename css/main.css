@@ -179,3 +179,67 @@ body {
     padding-right: 10px;
     border-left-color: #007bff;
 }
+
+/**/
+
+.cover-card {
+    border: 2px solid white;
+    background: silver;
+    padding: 0px;
+    margin: 0px;
+    height: 200px;
+}
+
+.cover-card>div {
+    text-align: center;
+    background-color: rgba(6, 6, 6, 0.0);
+    color: rgba(6, 6, 6, 0.0);
+    width: 100%;
+    height: 100%;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.cover-card:hover>div {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+    text-shadow: 3px 3px 10px #fff;
+    padding-left: 2%
+}
+
+.cover-card>div>p {
+    color: rgba(0, 123, 255, 0.0);
+}
+
+.cover-card:hover>div>p {
+    color: rgba(108, 117, 125, 1);
+}
+
+.cover-card>div>a>i {
+    color: rgba(6, 6, 6, 0.0);
+}
+
+.cover-card:hover>div>a>i {
+    color: rgba(0, 123, 255, 1);
+}
+
+/**/
+
+.blog .carousel-indicators {
+    left: 0;
+    top: auto;
+    bottom: -40px;
+
+}
+
+/* The colour of the indicators */
+.blog .carousel-indicators li {
+    background: #a3a3a3;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+}
+
+.blog .carousel-indicators .active {
+    background: #707070;
+}
